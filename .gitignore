@@ -1,0 +1,49 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+.sonar/
+*.war
+.svn/
+
+#xcode specific
+build/
+*.xcworkspace
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+*.ipa
+
+#ignore private workspace stuff added by Xcode4
+xcuserdata
+
+#android specific
+*.bin
+*.gen
+*.apk
+*.ap_
+*.dex
+*.class
+default.properties
+local.properties
+*/junit/
+
+# pow.cx
+.powder
+public
+tmp/restart.txt
+
+# Vim session files
+*.vim
+
+# Microsoft specific
+_ReSharper.*/
+*.Resharper.user
+bin/
+obj/
+TestResults/
